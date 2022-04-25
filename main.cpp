@@ -290,9 +290,6 @@ int main()
     secretWord = wordDataSet[rand() % 12972];
     transform(secretWord.begin(), secretWord.end(), secretWord.begin(), ::toupper);
 
-    cout<<secretWord<<std::endl;
-
-
     while (window.isOpen())
     {
         sf::Event event;
