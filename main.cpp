@@ -288,7 +288,6 @@ int main()
     guessWord.push_back({' ',' ',' ',' ',' '});
 
     secretWord = wordDataSet[rand() % 12972];
-    secretWord =  "CHASE";
     transform(secretWord.begin(), secretWord.end(), secretWord.begin(), ::toupper);
 
     cout<<secretWord<<std::endl;
